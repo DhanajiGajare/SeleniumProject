@@ -1,0 +1,8 @@
+testNGTutorial\AbstractComponents\AbstractComponent.class
+testNGTutorial\pageobject\CheckOutPage.class
+testNGTutorial\pageobject\productCatelogue.class
+testNGTutorial\resources\ExtentReportsNG.class
+testNGTutorial\pageobject\CartPage.class
+testNGTutorial\pageobject\ConfiremationPage.class
+testNGTutorial\pageobject\LandingPage.class
+testNGTutorial\pageobject\OrderPage.class

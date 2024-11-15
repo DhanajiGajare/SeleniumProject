@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-01T01:29:30 GMT-07:00" name="Suite" finished-at="2024-11-01T01:30:00 GMT-07:00" duration-ms="29606">
+    <groups>
+    </groups>
+    <test started-at="2024-11-01T01:29:30 GMT-07:00" name="ErrorValidations" finished-at="2024-11-01T01:29:46 GMT-07:00" duration-ms="15964">
+      <class name="testNGTutorial.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testNGTutorial.ErrorValidations@6cd24612]" started-at="2024-11-01T01:29:30 GMT-07:00" name="launchApplication" finished-at="2024-11-01T01:29:41 GMT-07:00" duration-ms="10733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:testNGTutorial.ErrorValidations@6cd24612]" started-at="2024-11-01T01:29:41 GMT-07:00" name="loginErrorValidation" finished-at="2024-11-01T01:29:44 GMT-07:00" duration-ms="2578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGTutorial.ErrorValidations@6cd24612]" started-at="2024-11-01T01:29:44 GMT-07:00" name="tearDown" finished-at="2024-11-01T01:29:46 GMT-07:00" duration-ms="2531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGTutorial.ErrorValidations -->
+    </test> <!-- ErrorValidations -->
+    <test started-at="2024-11-01T01:29:30 GMT-07:00" name="Submit Order Test" finished-at="2024-11-01T01:30:00 GMT-07:00" duration-ms="29606">
+      <class name="testNGTutorial.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testNGTutorial.SubmitOrderTest@25be7b63]" started-at="2024-11-01T01:29:31 GMT-07:00" name="launchApplication" finished-at="2024-11-01T01:29:41 GMT-07:00" duration-ms="10222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:testNGTutorial.SubmitOrderTest@25be7b63]" started-at="2024-11-01T01:29:41 GMT-07:00" name="submitOrder" data-provider="getData" finished-at="2024-11-01T01:29:50 GMT-07:00" duration-ms="8954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dhanaji@123, email=dhanaji@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGTutorial.SubmitOrderTest@25be7b63]" started-at="2024-11-01T01:29:50 GMT-07:00" name="tearDown" finished-at="2024-11-01T01:29:51 GMT-07:00" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testNGTutorial.SubmitOrderTest@25be7b63]" started-at="2024-11-01T01:29:51 GMT-07:00" name="launchApplication" finished-at="2024-11-01T01:29:56 GMT-07:00" duration-ms="5162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:testNGTutorial.SubmitOrderTest@25be7b63]" started-at="2024-11-01T01:29:56 GMT-07:00" name="OrderHistoryTest" finished-at="2024-11-01T01:30:00 GMT-07:00" depends-on-methods="testNGTutorial.SubmitOrderTest.submitOrder" duration-ms="3933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGTutorial.SubmitOrderTest@25be7b63]" started-at="2024-11-01T01:30:00 GMT-07:00" name="tearDown" finished-at="2024-11-01T01:30:00 GMT-07:00" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGTutorial.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
